@@ -4,8 +4,8 @@
 # 自动安装或更新 CPA Manager Plus (https://github.com/seakee/CPA-Manager-Plus)
 # 支持 native 二进制包和 Docker 两种部署模式
 
-set -euo pipefail
-
+# set -euo pipefail
+set -eu
 # ─── 常量 ──────────────────────────────────────────────────────────────────
 REPO_OWNER="seakee"
 REPO_NAME="CPA-Manager-Plus"
